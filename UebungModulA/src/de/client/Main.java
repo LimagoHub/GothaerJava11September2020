@@ -12,7 +12,7 @@ public class Main {
 	public static void main(String[] args) throws Exception{
 		InterfaceB.getInstance().print();
 
-		InterfaceC.getInstance().print();
+		//InterfaceC.getInstance().print();
 		
 		Class<?> clazz = Class.forName("de.gothaer.b.impl.ServiceB");
 		Object o = clazz.newInstance();
